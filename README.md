@@ -6,7 +6,7 @@ Writes consecutive 4KiB blocks to a file and demonstrates the difference between
 
 This demo shows that when a file grows beyond what can be addressed by direct pointers in an inode, the filesystem allocates an indirect pointer block. This causes the disk usage to increase more than just the 4KiB of data written.
 
-## Build and run (macOS)
+## Build and run
 ```bash
 make
 ./indirect_pointer_demo
