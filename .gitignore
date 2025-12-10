@@ -1,0 +1,6 @@
+# Build outputs
+*.o
+indirect_pointer_demo
+
+# Demo output file
+archivo
